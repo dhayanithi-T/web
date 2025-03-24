@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerse</title>
+
+    <!-- google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+
+    <!--my css-->
+
+
+    <link rel="stylesheet" href="style.css">
+ 
+    <!--icon-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+<!--navbar-->
+
+
+
+<nav class="navbar">
+    <h1>Fashion</h1>
+    <div class="navbar-links" >
+        <p class="navbar-link"><a href="web.html">Home</a></p>
+        <p class="navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="navbar-link"><a href="">Contact</a></p>
+    </div>
+    <div class="navbar-menu-toggle" onclick="shownav()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</nav>
+
+<!--side nav-->
+<div class="side-nav">
+    <p style="text-align: right;" onclick="closenav()">
+        <i class="fa-solid fa-xmark"></i>
+    </p>
+
+
+    <div class="side-nav-links" >
+        <p class="side-nav-link"><a href="web.html">Home</a></p>
+        <p class="side-nav-link"><a href="collection.html">Collections</a></p>
+        <p class="side-nav-link"><a href="">Contact</a></p>
+    </div>
+ 
+</div>   
+
+<!-- product  -->
+ <div class="product-section">
+
+    <form class="product-search">
+        <input type="text"  id="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+     
+    <div class="products" id="products">
+    <div class="product-box"> 
+        <img src="https://images.unsplash.com/photo-1612541122840-bf7071c968a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdoaXRlJTIwc2hpcnRzfGVufDB8fDB8fHww" alt=""
+       width="150" height="300" >
+        <p>White Shirts</p>
+    </div>
+    <div class="product-box">
+         <img src="https://images.unsplash.com/photo-1574281570877-bd815ebb50a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGJsYWNrJTIwc2hpcnRzfGVufDB8fDB8fHww" 
+        alt="" width="150" height="300">
+        <p>Black Shirts</p>
+    </div>
+    <div class="product-box">
+        <img src="https://images.unsplash.com/photo-1612541122840-bf7071c968a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdoaXRlJTIwc2hpcnRzfGVufDB8fDB8fHww" 
+        alt="" width="150" height="300">
+        <p>White Shirts</p>
+    </div>
+    <div class="product-box">
+        
+        <img src="https://images.unsplash.com/photo-1574281570877-bd815ebb50a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGJsYWNrJTIwc2hpcnRzfGVufDB8fDB8fHww"
+         alt="" width="150" height="300">
+        <p>Black Shirts</p>
+    </div>
+    </div>
+ </div>
+
+
+<!--Footer-->
+
+<div class="footer">
+    <div class="footer-cont">
+        <div class="footer-box-1">
+            <h2 class="headingtext">Fashion</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dicta facere officiis </p>
+            <div class="footer-icon">
+                <i class="fa-brands fa-instagram" style="color: beige;"></i>
+                <i class="fa-brands fa-x-twitter" style="color: beige;"></i>
+                <i class="fa-brands fa-facebook" style="color: beige;"></i>
+            </div>
+        </div>
+    </div>
+    <p>@ 2025 Fashion.com</p>
+</div>
+
+
+<script src="coll.js"></script>
+
+</body>
+</html>
